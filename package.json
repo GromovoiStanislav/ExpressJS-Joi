@@ -1,0 +1,21 @@
+{
+  "name": "nodedatavalidation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+      "build": "tsc",
+      "start": "node dist/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "joi": "^17.7.0",
+    "typescript": "^4.9.3"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.14"
+  }
+}
